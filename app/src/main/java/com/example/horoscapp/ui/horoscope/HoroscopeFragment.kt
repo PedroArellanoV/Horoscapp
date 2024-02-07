@@ -12,7 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class HoroscopeFragment : Fragment() {
 
-    private val horoscopeViewModel by viewModels-<HoroscopeViewModel>()
+    private val horoscopeViewModel by viewModels<HoroscopeViewModel>()
 
     private var _binding: FragmentHoroscopeBinding? = null
     private val binding get() = _binding!!
